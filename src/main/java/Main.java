@@ -7,7 +7,8 @@ public class Main {
         customers.add(new Customer("Haluk", "Food"));
         customers.add(new Customer("Uyumsal", "Finance"));
 
-        System.out.println("All customers:");
+        //Tüm kullanıcılar
+        System.out.println("Tüm kullanıcılar:");
         Customer.listAllCustomers(customers);
 
         // Yeni sipariş oluşturma
